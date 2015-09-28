@@ -14,6 +14,19 @@
 		16FD7B151BB8BFDC0058D54A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16FD7B131BB8BFDC0058D54A /* Main.storyboard */; };
 		16FD7B171BB8BFDC0058D54A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16FD7B161BB8BFDC0058D54A /* Assets.xcassets */; };
 		16FD7B1A1BB8BFDC0058D54A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16FD7B181BB8BFDC0058D54A /* LaunchScreen.storyboard */; };
+		16FD7B2F1BB8C1BB0058D54A /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 16FD7B221BB8C1BB0058D54A /* background.jpg */; settings = {ASSET_TAGS = (); }; };
+		16FD7B301BB8C1BB0058D54A /* background@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 16FD7B231BB8C1BB0058D54A /* background@2x.jpg */; settings = {ASSET_TAGS = (); }; };
+		16FD7B311BB8C1BB0058D54A /* block.png in Resources */ = {isa = PBXBuildFile; fileRef = 16FD7B241BB8C1BB0058D54A /* block.png */; settings = {ASSET_TAGS = (); }; };
+		16FD7B321BB8C1BB0058D54A /* block@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16FD7B251BB8C1BB0058D54A /* block@2x.png */; settings = {ASSET_TAGS = (); }; };
+		16FD7B331BB8C1BB0058D54A /* finish.png in Resources */ = {isa = PBXBuildFile; fileRef = 16FD7B261BB8C1BB0058D54A /* finish.png */; settings = {ASSET_TAGS = (); }; };
+		16FD7B341BB8C1BB0058D54A /* finish@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16FD7B271BB8C1BB0058D54A /* finish@2x.png */; settings = {ASSET_TAGS = (); }; };
+		16FD7B351BB8C1BB0058D54A /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 16FD7B281BB8C1BB0058D54A /* level1.txt */; settings = {ASSET_TAGS = (); }; };
+		16FD7B361BB8C1BB0058D54A /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 16FD7B291BB8C1BB0058D54A /* player.png */; settings = {ASSET_TAGS = (); }; };
+		16FD7B371BB8C1BB0058D54A /* player@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16FD7B2A1BB8C1BB0058D54A /* player@2x.png */; settings = {ASSET_TAGS = (); }; };
+		16FD7B381BB8C1BB0058D54A /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 16FD7B2B1BB8C1BB0058D54A /* star.png */; settings = {ASSET_TAGS = (); }; };
+		16FD7B391BB8C1BB0058D54A /* star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16FD7B2C1BB8C1BB0058D54A /* star@2x.png */; settings = {ASSET_TAGS = (); }; };
+		16FD7B3A1BB8C1BB0058D54A /* vortex.png in Resources */ = {isa = PBXBuildFile; fileRef = 16FD7B2D1BB8C1BB0058D54A /* vortex.png */; settings = {ASSET_TAGS = (); }; };
+		16FD7B3B1BB8C1BB0058D54A /* vortex@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16FD7B2E1BB8C1BB0058D54A /* vortex@2x.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +39,19 @@
 		16FD7B161BB8BFDC0058D54A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16FD7B191BB8BFDC0058D54A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16FD7B1B1BB8BFDC0058D54A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16FD7B221BB8C1BB0058D54A /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		16FD7B231BB8C1BB0058D54A /* background@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background@2x.jpg"; sourceTree = "<group>"; };
+		16FD7B241BB8C1BB0058D54A /* block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block.png; sourceTree = "<group>"; };
+		16FD7B251BB8C1BB0058D54A /* block@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "block@2x.png"; sourceTree = "<group>"; };
+		16FD7B261BB8C1BB0058D54A /* finish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = finish.png; sourceTree = "<group>"; };
+		16FD7B271BB8C1BB0058D54A /* finish@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "finish@2x.png"; sourceTree = "<group>"; };
+		16FD7B281BB8C1BB0058D54A /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		16FD7B291BB8C1BB0058D54A /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+		16FD7B2A1BB8C1BB0058D54A /* player@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player@2x.png"; sourceTree = "<group>"; };
+		16FD7B2B1BB8C1BB0058D54A /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		16FD7B2C1BB8C1BB0058D54A /* star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star@2x.png"; sourceTree = "<group>"; };
+		16FD7B2D1BB8C1BB0058D54A /* vortex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vortex.png; sourceTree = "<group>"; };
+		16FD7B2E1BB8C1BB0058D54A /* vortex@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vortex@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,7 @@
 		16FD7B0A1BB8BFDC0058D54A /* marble-maze */ = {
 			isa = PBXGroup;
 			children = (
+				16FD7B211BB8C1BB0058D54A /* Content */,
 				16FD7B0B1BB8BFDC0058D54A /* AppDelegate.swift */,
 				16FD7B0D1BB8BFDC0058D54A /* GameScene.sks */,
 				16FD7B0F1BB8BFDC0058D54A /* GameScene.swift */,
@@ -68,6 +95,26 @@
 				16FD7B1B1BB8BFDC0058D54A /* Info.plist */,
 			);
 			path = "marble-maze";
+			sourceTree = "<group>";
+		};
+		16FD7B211BB8C1BB0058D54A /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				16FD7B221BB8C1BB0058D54A /* background.jpg */,
+				16FD7B231BB8C1BB0058D54A /* background@2x.jpg */,
+				16FD7B241BB8C1BB0058D54A /* block.png */,
+				16FD7B251BB8C1BB0058D54A /* block@2x.png */,
+				16FD7B261BB8C1BB0058D54A /* finish.png */,
+				16FD7B271BB8C1BB0058D54A /* finish@2x.png */,
+				16FD7B281BB8C1BB0058D54A /* level1.txt */,
+				16FD7B291BB8C1BB0058D54A /* player.png */,
+				16FD7B2A1BB8C1BB0058D54A /* player@2x.png */,
+				16FD7B2B1BB8C1BB0058D54A /* star.png */,
+				16FD7B2C1BB8C1BB0058D54A /* star@2x.png */,
+				16FD7B2D1BB8C1BB0058D54A /* vortex.png */,
+				16FD7B2E1BB8C1BB0058D54A /* vortex@2x.png */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,8 +175,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				16FD7B0E1BB8BFDC0058D54A /* GameScene.sks in Resources */,
+				16FD7B311BB8C1BB0058D54A /* block.png in Resources */,
+				16FD7B361BB8C1BB0058D54A /* player.png in Resources */,
+				16FD7B2F1BB8C1BB0058D54A /* background.jpg in Resources */,
 				16FD7B1A1BB8BFDC0058D54A /* LaunchScreen.storyboard in Resources */,
+				16FD7B3A1BB8C1BB0058D54A /* vortex.png in Resources */,
+				16FD7B321BB8C1BB0058D54A /* block@2x.png in Resources */,
+				16FD7B391BB8C1BB0058D54A /* star@2x.png in Resources */,
 				16FD7B171BB8BFDC0058D54A /* Assets.xcassets in Resources */,
+				16FD7B301BB8C1BB0058D54A /* background@2x.jpg in Resources */,
+				16FD7B341BB8C1BB0058D54A /* finish@2x.png in Resources */,
+				16FD7B331BB8C1BB0058D54A /* finish.png in Resources */,
+				16FD7B351BB8C1BB0058D54A /* level1.txt in Resources */,
+				16FD7B381BB8C1BB0058D54A /* star.png in Resources */,
+				16FD7B371BB8C1BB0058D54A /* player@2x.png in Resources */,
+				16FD7B3B1BB8C1BB0058D54A /* vortex@2x.png in Resources */,
 				16FD7B151BB8BFDC0058D54A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,7 +316,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				INFOPLIST_FILE = "marble-maze/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.kmobi.marble-maze";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -267,7 +329,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				INFOPLIST_FILE = "marble-maze/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.kmobi.marble-maze";
 				PRODUCT_NAME = "$(TARGET_NAME)";
