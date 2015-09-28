@@ -7,6 +7,7 @@
 //
 
 import SpriteKit
+import CoreMotion
 
 enum CollisionTypes: UInt32 {
     case Player = 1
@@ -17,7 +18,15 @@ enum CollisionTypes: UInt32 {
 }
 
 class GameScene: SKScene {
+    var player: SKSpriteNode!
+    var lastTouchPosition: CGPoint?
+    var motionManager: CMMotionManager!
+
     override func didMoveToView(view: SKView) {
+        physicsWorld.gravity = CGVector(dx: 0, dy: 0)
+        motionManager = CMMotionManager()
+        motionManager.startAccelerometerUpdates()
+        
         let background = SKSpriteNode(imageNamed: "background.jpg")
         background.position = CGPoint(x: 512, y: 384)
         background.blendMode = .Replace
@@ -28,11 +37,51 @@ class GameScene: SKScene {
     }
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-
+        if let touch = touches.first {
+            let location = touch.locationInNode(self)
+            lastTouchPosition = location
+        }
+    }
+    
+    override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        if let touch = touches.first {
+            let location = touch.locationInNode(self)
+            lastTouchPosition = location
+        }
+    }
+    
+    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        lastTouchPosition = nil
+    }
+    
+    override func touchesCancelled(touches: Set<UITouch>?, withEvent event: UIEvent?) {
+        lastTouchPosition = nil
     }
    
     override func update(currentTime: CFTimeInterval) {
-        /* Called before each frame is rendered */
+        #if (arch(i386) || arch(x86_64))
+            if let currentTouch = lastTouchPosition {
+                let diff = CGPoint(x: currentTouch.x - player.position.x, y: currentTouch.y - player.position.y)
+                physicsWorld.gravity = CGVector(dx: diff.x / 100, dy: diff.y / 100)
+            }
+            #else
+            if let accelerometerData = motionManager.accelerometerData {
+                physicsWorld.gravity = CGVector(dx: accelerometerData.acceleration.y * -50, dy: accelerometerData.acceleration.x * 50)
+            }
+        #endif
+    }
+    
+    func createPlayer() {
+        player = SKSpriteNode(imageNamed: "player")
+        player.position = CGPoint(x: 96, y: 672)
+        player.physicsBody = SKPhysicsBody(circleOfRadius: player.size.width / 2)
+        player.physicsBody!.allowsRotation = false
+        player.physicsBody!.linearDamping = 0.5
+        
+        player.physicsBody!.categoryBitMask = CollisionTypes.Player.rawValue
+        player.physicsBody!.contactTestBitMask = CollisionTypes.Star.rawValue | CollisionTypes.Vortex.rawValue | CollisionTypes.Finish.rawValue
+        player.physicsBody!.collisionBitMask = CollisionTypes.Wall.rawValue
+        addChild(player)
     }
     
     func loadLevel() {
