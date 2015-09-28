@@ -2,5 +2,5 @@
 
 Project created as part of tutorial in https://www.hackingwithswift.com. The main objectives are:
 
- - Make a multipeer photo sharing app in just 150 lines of code.
- - Exercise Multipeer Connectivity Framework.
+ - Respond to device tilting by steering a ball around a vortex maze.
+ - Exercise Core Motion, collision bitmasks, array reversing, compiler directives.
